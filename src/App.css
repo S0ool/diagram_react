@@ -1,0 +1,74 @@
+.diagram{
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+ .flask{
+     height: 300px;
+     width: 50px;
+     border: 3px solid black;
+ }
+}
+.diagrams{
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+    background: rgba(255, 31, 255, 0.37);
+    p{
+        font-size: 16px;
+    }
+    .flask:hover, p:hover {
+        color: white;
+    scale: calc(1.1);
+}
+    }
+.diagrams:hover{
+    scale: calc(1.1);
+
+    background: rgba(255, 31, 255, 0.71);
+}
+.create-diagram{
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px 200px;
+    flex-wrap: wrap;
+
+    background: rgba(85, 170, 255, 0.42);
+    *{
+        background: rgba(85, 93, 255, 0.2);
+        height: 20px;
+        padding: 20px 10px;
+        font-size: 20px;
+        border-radius: 20px;
+        border: 1px black solid;
+
+    }
+    button{
+        padding-bottom: 40px;
+        height: 30px;
+    }
+    *:hover{
+    scale: calc(1.1);
+}
+}
+.create-diagram:hover{
+    scale: calc(1.1);
+
+    background: rgba(85, 170, 255, 0.77);
+
+}
+body{
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+*{
+    transition-duration: .5s;
+
+}
